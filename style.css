@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,css{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .maintable{
+    border: solid;
+} */
+
+#logoimg{
+   border-radius: 50%;
+   width: 80px;
+}
+
+.elements{
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+.ele{
+    width: 25%;
+    background-color: aquamarine;
+    height: 90%;
+    border: 2px solid black;
+}
